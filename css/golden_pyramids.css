@@ -1,0 +1,1160 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #fcd9bf;
+    width: 100%;
+    
+}
+
+/*  START navBar   */
+
+
+.navbar {
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    transition-duration: 0.5;
+}
+
+
+.navbar .tog{
+    display: none;
+    cursor: pointer;
+    width: auto;
+}
+
+
+.navbar .tog .fa-bars{
+    font-size: 35px ;
+    border-radius: 5px;
+    color:white;
+}
+
+
+.navbar ul{
+    text-align: right;
+    float: right;
+    width: 95%;
+    margin-right: 5%;
+}
+
+
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+    
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+.navbar li .active {
+    padding: 7px 15px;
+    border: 1px solid #333;
+    background-color: transparent;
+}
+
+
+.navbar li a:hover:not(.active) {
+    transition-duration: 0.5s;
+    color:  #fcd9bf;
+    
+}
+
+.navbar li .active:hover{
+    transition-duration: 0.5s;
+    color:  #fcd9bf;
+}
+
+/*   END navBar   */
+
+/*
+
+font-family: 'Playfair Display', serif;
+font-family: 'Merriweather Sans', sans-serif;
+
+
+rgba(52, 182, 23, 0.438);
+*/
+
+/*  START SECTION 1   */
+
+.one {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.one .fp{
+    position: absolute;
+    height: 250%;
+    width: 100%;
+    background-image: url('logotwo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+.one .intro{
+    text-align: center;
+    margin-top: 20%;
+    
+}
+.one .intro h1{
+    color: #333;
+    font-size: 40px;
+    font-family: 'Fredericka the Great', cursive;
+    
+}
+
+.intro p{
+    background-color:#babb98;
+    font-family: 'Unica One', cursive;
+    font-size: 20px;
+    color: #333;
+    line-height: 30px;
+}
+
+/*     START SECTION 2   */
+/*     START SECTION 2   */
+/*     START SECTION 2   */
+
+.two{
+    background-color: rgba(221, 221, 221, 0.534);
+}
+
+
+
+.mySlides {display: none}
+
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    padding: 20px;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.responsive-slider{
+    float: right;
+    width: 45%;
+}
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #444;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    left: 100%;
+    border-radius: 3px;
+    color: #333;
+}
+.prev {
+    right: 100%;
+    border-radius: 3px;
+    color: #333;
+    
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color:#babb98;
+    transition-duration: 0.25s;
+}
+
+/* Caption text */
+.calve {
+    float: left;
+    width: 50%;
+    padding: 3%;
+    text-align: center;
+}
+.calve h1{
+    margin-bottom: 4%;
+    color: #333;
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #333;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 5%;
+    background-color:#babb98;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color:#babb98;
+    border-radius: 50%;
+    display: inline-block;
+    transition-duration: 0.25s;
+}
+
+.active, .dot:hover {
+    background-color: #333;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+
+
+
+/*   END SECTION 2  */
+/*   END SECTION 2  */
+/*   END SECTION 2  */
+
+
+
+/*  START SECTION 3  */
+/*  START SECTION 3  */
+
+.three{
+    background-color: rgba(221, 221, 221, 0.534);
+}
+
+/* MENU  TABS*/
+/* MENU  TABS*/
+
+ul.tabs{
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;			
+    list-style: none;
+}
+
+ul.tabs li {
+    text-align: center;
+    background: none;
+    color: #333;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 28%;
+    margin: 1%;
+}
+ul.tabs li:hover{
+    
+    
+    background-color:#babb98;
+    transition-duration: 0.5s;
+}
+
+ul.tabs .current{
+    border: 2px solid#babb98;
+    
+    color: #333;
+}
+
+.five .menu .tabs-container .tab-link ul li{
+    color:  #fff;
+    font-size: 25px;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+
+/* MENU  TABS*/
+/* MENU  TABS*/
+
+
+
+/* MENU  content*/
+/* MENU  content*/
+
+.tab-content{
+    display: none;
+    padding: 15px;
+    transition-duration: 1s
+}
+
+.tab-content.current{
+    display: block;
+}
+
+.menu .tabs-container .leftSide, .rightSide{
+    width: 48%;
+}
+
+.tab-content li {
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+
+.menu .tabs-container .leftSide p, .rightSide p{
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+    color: #333;
+    font-size: 15px;
+    line-height: 1;
+    text-align: left;
+}
+
+
+.menu .tabs-container .tab-content ul li{
+    color:  #777;
+    font-size: 12px;
+    font-family:sans-serif;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+.menuimgs{
+    display: none;
+}
+/* MENU  content*/
+/* MENU  content*/
+
+/*   END SECTION 3  */
+/*   END SECTION 3  */
+
+
+
+
+
+
+
+
+
+
+/*  START SECTION 4  */
+/*  START SECTION 4  */
+
+
+.four{
+    background-color: rgba(221, 221, 221, 0.534);
+}
+
+.four .reviews{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.four .reviews .rev{
+    width: 48%;
+    margin: 1%;
+    padding-top: 200px;
+}
+
+
+/*   END SECTION 4  */
+/*   END SECTION 4  */
+
+
+
+/*  START SECTION 5   */
+
+.five{
+}
+
+.five .aboutus{
+}
+
+.spicialone{
+    box-shadow: none !important;
+}
+.date{
+    padding-top: 12%;
+    width: 100%;
+    color: #9b9862;
+font-family: monospace;
+}
+
+
+.five .aboutus .st{
+    margin-top: 50px;
+    padding-top: 200px;
+    
+}
+
+.five .aboutus .nd{
+    padding-top: 200px;
+    
+}
+
+
+.five .aboutus .st .aboutimg{
+    width: 48%;
+    margin: 1%;
+}
+
+.five .aboutus .nd .aboutimg{
+    width: 48%;
+    margin: 1%;
+}
+
+.five .aboutus .aboutpst{
+    text-align: justify;
+    margin: 1%;
+}
+
+
+.five .aboutus .aboutpnd{
+    width: 48%;
+    margin: 1%;
+}
+
+.five .aboutus .nd .aboutpnd p{
+    background-color:#babb98;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #333;
+}
+
+.favdishes{
+    margin-top: 30px;
+}
+
+.seadesc{
+    padding: 0 !important
+}
+
+.five .seagrid{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.five .seagrid .sea{
+    width: 48%;
+    margin: 1%;
+    box-shadow: 5px 5px 10px #333;
+
+}
+
+
+
+/*   END SECTION 5  */
+
+
+
+
+
+/*  START SECTION 6   */
+
+.six{
+    padding-bottom: 30px;
+    background-color: rgba(221, 221, 221, 0.534);
+}
+
+.contact{   
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.contact span{   
+    margin-right: 10px;
+    color: #946342;
+}
+
+.contact .social-icon a{
+    font-size: 40px;
+    color: #946342;
+}
+
+.contact .social-icon {
+    font-size: 40px;
+    color: #946342;
+    padding-right: 15px;
+    
+}
+
+.contact .socialmedia{
+    padding: 30px;
+}
+
+.contact .social{
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.open{
+    width: 38%;
+    margin-bottom: 20px;
+}
+
+.contact .phone p{
+    font-family: 'Unica One', cursive;
+}
+.contact .location p{
+    font-family: 'Unica One', cursive;
+}
+
+.contact a{
+    font-size: 20px;
+}
+
+.map{
+    width: 100%;
+}
+
+.map iframe{
+    width: 100%;
+    height: 500px;
+    box-shadow: 5px 5px 10px #333;
+}
+
+/*   END SECTION 6  */
+
+
+
+
+
+
+
+
+
+
+
+.last-bar{
+    background-color: #110d0f;
+    padding: 20px;
+    position: relative;
+}
+.last-bar .logo{
+    width: auto;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+}
+.last-bar img{
+    width: 130px;
+    border-radius: 40%;
+    
+}
+.last-bar .fin{
+    margin: 2%;
+    width: 75%;
+}
+
+.last-bar p{
+    color:white;
+    font-size: 20px;
+    font-family: 'Unica One', cursive;
+}
+
+
+/*   START MY FRAMEWORK  *//*   START MY FRAMEWORK  *//*   START MY FRAMEWORK  *//*   START MY FRAMEWORK  */
+/*   START MY FRAMEWORK  *//*   START MY FRAMEWORK  *//*   START MY FRAMEWORK  *//*   START MY FRAMEWORK  *//*   START MY FRAMEWORK  *//*   START MY FRAMEWORK  *//*   START MY FRAMEWORK  *//*   START MY FRAMEWORK  *//*   START MY FRAMEWORK  *//*   START MY FRAMEWORK  *//*   START MY FRAMEWORK  *//*   START MY FRAMEWORK  */
+
+.overflow{
+    overflow: hidden;
+}
+
+.auto{
+    margin: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.h2{
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+.subtitle{
+    padding-bottom: 30px;
+    font-size: 25px; 
+    text-align: center;
+    color: #333;
+}
+
+.show{
+    display: block !important;
+    color: red;
+}    
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.img-cont{
+    box-shadow: 10px 10px 10px grey;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+
+.responsive-paragraph{
+    line-height: 1.5;
+    color: #333;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.navbar-oppacity{
+    background-color: rgba(250, 250,250,0.9);
+    box-shadow: 0px 1px 10px darkgrey;
+}
+
+
+
+
+.line{
+    background-color:#babb98;
+    width: 200px;
+    height: 3px;
+    border-radius: 25%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.articletitle{
+    color: #9b9862;
+    line-height: 1.5;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;}
+
+.unique{
+    
+}
+/*   END   MY FRAMEWORK  */
+/*   END   MY FRAMEWORK  */
+/*   END   MY FRAMEWORK  */
+/*   END   MY FRAMEWORK  */
+/*   END   MY FRAMEWORK  */
+/*   END   MY FRAMEWORK  */
+
+
+
+
+
+
+
+/*   RESPONSIVE SCREENS FOT MOBILE PHONES AND TABLETS  *//*   RESPONSIVE SCREENS FOT MOBILE PHONES AND TABLETS  *//*   RESPONSIVE SCREENS FOT MOBILE PHONES AND TABLETS  *//*   RESPONSIVE SCREENS FOT MOBILE PHONES AND TABLETS  *//*   RESPONSIVE SCREENS FOT MOBILE PHONES AND TABLETS  *//*   RESPONSIVE SCREENS FOT MOBILE PHONES AND TABLETS  *//*   RESPONSIVE SCREENS FOT MOBILE PHONES AND TABLETS  *//*   RESPONSIVE SCREENS FOT MOBILE PHONES AND TABLETS  *//*   RESPONSIVE SCREENS FOT MOBILE PHONES AND TABLETS  *//*   RESPONSIVE SCREENS FOT MOBILE PHONES AND TABLETS  *//*   RESPONSIVE SCREENS FOT MOBILE PHONES AND TABLETS  *//*   RESPONSIVE SCREENS FOT MOBILE PHONES AND TABLETS  */
+
+
+
+/*   VERY VERY VERY SMALL SCREENS  */
+/*   VERY VERY VERY SMALL SCREENS  */
+/*   VERY VERY VERY SMALL SCREENS  */
+/*   VERY VERY VERY SMALL SCREENS  */
+/*   VERY VERY VERY SMALL SCREENS  */
+/*   VERY VERY VERY SMALL SCREENS  */
+
+
+@media (max-width:500px){
+    
+    .navbar {
+        width: 100%;
+        background-color: rgba(0,0,0,0.9);
+        box-shadow: none;
+
+    }
+    .navbar ul{
+        display: none;
+        height: 100%;
+        width: 100%;
+        margin-right: 0;
+    }
+    .navbar ul li {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .navbar ul li a{
+        color: whitesmoke !important;
+    }
+    .navbar li .active {
+        border: 1px solid whitesmoke
+    }
+        .one{
+            height: 100vh;
+        }
+        .one .fp{
+            background-image: url("logo.jpeg");
+            width: 100%;
+            background-size: cover;
+            background-position-x: center;
+            background-attachment: fixed;
+        }
+        .container{
+            width: 100%;
+        }
+        .img-cont {
+            box-shadow: 3px 3px 3px grey;
+        }
+        
+        .navbar .tog{
+            display: block;
+        }
+        .prev, .next {
+            display: none;
+        }  
+        .slider {
+            width: 100%;
+        }
+        .slideshow-container {
+            padding: 10px;    
+        }
+        .numbertext{
+            display: none;
+        }
+        .calve h1 {
+            font-size: 20px;
+            margin-top: 0;
+        }
+        .calve {
+            float: none;
+            width: 100%;
+            padding: 3%;
+            text-align: center;
+        }
+        .responsive-paragraph {
+            line-height: 1.5;
+            color: #333;
+            font-family: 'Merriweather Sans', sans-serif;
+            font-weight:unset;
+            font-size: 12px;
+        }
+        .responsive-slider{
+            float: none;
+            width: 100%;
+        }
+        
+        ul.tabs li {
+            font-size: 15px;
+            width: 47%;
+        }
+
+        .menu{
+            display: none;
+        }
+        .menuimgs{
+            display: block;
+        }
+        
+        .menu .tabs-container .leftSide, .rightSide {
+            width: 100%;
+            text-align: center;
+        }
+        .menu .tabs-container .leftSide p {
+            text-align: center;
+            font-size: 15px;
+        }
+        .menu .tabs-container .rightSide p{
+            text-align: center;
+            font-size: 15px;
+        }
+        .four .reviews .rev {
+            width: 98%;
+            margin: 1%;
+            float: none;
+            margin-top: 6%;
+        }
+        .five .aboutus .nd .aboutimg {
+            width: 98%;
+            margin: 1%;
+            float: none;
+            margin-top: 10px;
+        }
+        .five .aboutus .aboutpnd {
+            width: 98%;
+            margin: 1%;
+            float: none;
+        }
+        .subtitle {
+            padding: 10px 10px;
+            font-size: 18px;
+        }
+        .last-bar p {
+            display: none;
+        }
+        .last-bar img {
+            width: 100px;
+            border-radius: 40%;
+        }
+        .last-bar .logo {
+            left: 15px;
+        }
+        .contact .socialmedia {
+            margin-bottom: 80px;
+        }
+                
+.contact .social{
+    width: 100%;  
+    float: none !important  
+}
+                
+.contact .open{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;  
+    float: none !important  
+}
+
+
+.five .seagrid .sea{
+    width: 100%;
+margin-top: 30px;
+}
+    }
+    
+    
+    
+    /*   RESPONSIVE SCREENS SMALL  */
+    /*   RESPONSIVE SCREENS SMALL  */
+    /*   RESPONSIVE SCREENS SMALL  */
+    
+    
+    
+    
+    
+    @media (min-width:501px) and (max-width:600px){
+        .navbar {
+            width: 100%;
+            background-color: rgba(0,0,0,0.9);
+            box-shadow: none;
+        }
+        .navbar ul{
+            display: none;
+            height: 100%;
+            width: 100%;
+            margin-right: 0;
+        }
+        .navbar ul li {
+            display: block;
+            text-align: center;
+            width: 100%;
+        }
+        .navbar ul li a{
+            color: whitesmoke !important;
+        }
+        .navbar li .active {
+            border: 1px solid whitesmoke
+        }    
+        
+        .container{
+            width: 100% ;
+        }
+        .img-cont {
+            box-shadow: 3px 3px 3px grey;
+        }
+        .navbar .tog{
+            display: block;
+        }
+        
+        .navbar ul{
+            display: none;
+        }
+        .prev, .next {
+            display: none;
+        }   
+        
+        .slideshow-container {
+            padding: 10px;
+        }
+        
+        .numbertext{
+            display: none;
+        }
+        .calve h1 {
+            font-size: 22px;
+            margin-top: 0;
+        }
+        .calve {
+            padding: 0;
+        }
+        .responsive-paragraph {
+            line-height: 1.5;
+            color: #333;
+            font-family: 'Merriweather Sans', sans-serif;
+            font-weight:unset;
+            font-size: 15px;
+        }
+        
+        .menu{
+            display: none;
+        }
+        .menuimgs{
+            display: block;
+        }
+        .menu .tabs-container .leftSide, .rightSide {
+            width: 100%;
+            text-align: center;
+        }
+        .menu .tabs-container .leftSide p {
+            text-align: center;
+            font-size: 17px;
+        }
+        .menu .tabs-container .rightSide p{
+            text-align: center;
+            font-size: 17px;
+        }
+        
+        ul.tabs li {
+            font-size: 17px;
+            width: 47%;
+        }
+        
+        .four .reviews .rev {
+            width: 98%;
+            margin: 1%;
+            float: none;
+            margin-top: 6%;
+            
+        }
+        .five .aboutus .nd .aboutimg {
+            width: 98%;
+            margin: 1%;
+            float: none;
+            margin-top: 10px;
+        }
+        .five .aboutus .aboutpnd {
+            width: 98%;
+            margin: 1%;
+            float: none;
+        }
+        .subtitle {
+            padding: 10px 10px;
+            font-size: 18px;
+            
+        }
+        .last-bar p {
+            color: whitesmoke;
+            font-size: 10px;
+            float: none;
+            text-align: end;
+            padding: 3px;
+        }
+        .last-bar img {
+            width: 100px;
+            border-radius: 40%;
+        }
+        .last-bar .logo {
+            left: 15px;
+        }
+        
+.contact .social{
+    width: 100%;
+    float: none !important  
+}
+.contact .open{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;  
+    float: none !important  
+}
+
+.five .seagrid .sea{
+    width: 100%;
+margin-top: 30px;
+}
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*        M E D I U M       SCREENS         */
+    /*        M E D I U M       SCREENS         */
+    /*        M E D I U M       SCREENS         */
+    /*        M E D I U M       SCREENS         */
+    /*        M E D I U M       SCREENS         */
+    
+    
+    
+    
+    @media (min-width:601px) and (max-width:800px){
+        .container{
+            width: 100%;
+        }
+        
+        .slideshow-container {
+            padding: 10px;
+            
+        }
+        .prev, .next {
+            display: none;
+        }  
+        .numbertext{
+            display: none;
+        }
+        .calve h1 {
+            font-size: 22px;
+            margin-top: 0;
+        }
+        .calve {
+            padding: 0;
+            
+        }
+        .responsive-paragraph {
+            line-height: 1.5;
+            color: #333;
+            font-family: 'Merriweather Sans', sans-serif;
+            font-weight:unset;
+            font-size: 15px;
+        }
+        
+        .subtitle {
+            padding-bottom: 10px;
+            
+        }
+        
+        ul.tabs li {
+            font-size: 19px;
+            width: 47%;
+        }
+        
+        .menu .tabs-container .leftSide, .rightSide {
+            width: 100%;
+            text-align: center;}
+            .menu .tabs-container .leftSide p {
+                text-align: center;
+                
+            }
+            .menu .tabs-container .rightSide p{
+                text-align: center;
+            }
+                  
+.contact .social{
+    width: 100%;  
+    float: none !important  
+}
+                
+.contact .open{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;  
+    float: none !important  
+}
+               
+.contact .social{
+    width: 100%;  
+    float: none !important  
+}
+                
+.contact .open{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;  
+    float: none !important  
+}
+            
+        }
+        
+        /*      L A R G E       SCREEENS        */
+        /*      L A R G E       SCREEENS        */
+        /*      L A R G E       SCREEENS        */
+        /*      L A R G E       SCREEENS        */
+        /*      L A R G E       SCREEENS        */
+        
+        @media (max-width:902){      
+.contact .social{
+    width: 100%;  
+    float: none !important  
+}
+                
+.contact .open{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;  
+    float: none !important  
+}
+        }
+        
+        /*     V E R Y  L A R G E       SCREEENS        */
+        /*     V E R Y  L A R G E       SCREEENS        */
+        /*     V E R Y  L A R G E       SCREEENS        */
+      
+        
+        
+        @media (max-width:1265px){
+            .menu .tabs-container .leftSide, .rightSide {
+                width: 100%;
+                text-align: center;
+            }
+            .menu .tabs-container .leftSide p {
+                text-align: center;
+                font-size: 17px;
+            }
+            .menu .tabs-container .rightSide p{
+                text-align: center;
+                font-size: 17px;
+            }  
+        }
+
